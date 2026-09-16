@@ -4,6 +4,7 @@
 
 - 🔭 当前项目：[AI-Video-Analyzer](https://github.com/Hzwuu/AI-Video-Analyzer) —— 短视频数据评分与分析服务（FastAPI + SQLite）
 - 🧠 折腾中：[deep-research](https://github.com/Hzwuu/deep-research)（LangGraph 深度研究 Agent）、[debate-agent](https://github.com/Hzwuu/debate-agent)（多智能体辩论框架）
+- 🧪 算法基本功：[dsa-practicum](https://github.com/Hzwuu/dsa-practicum) —— 6 个数据结构课题（链表 / 栈 / 树 / 图 / 哈夫曼）的 C 语言实现
 - 🌱 学习中：FastAPI · SQLAlchemy · Vue3 · Docker
 - 🧰 常用：Python · SQLite · pytest · Git · C/C++ · Java
 
