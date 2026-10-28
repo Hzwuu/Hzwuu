@@ -14,11 +14,9 @@
 
 ## 目前在做
 
-- **[TCM Consultation RAG](https://github.com/Hzwuu/tcm-consultation-rag)**  
-  本地中医问诊辅助 RAG。核心流程由 CSV 知识检索、Top 3 上下文约束、安全分流和模型失败回退组成。
+- **[TCM Consultation RAG](https://github.com/Hzwuu/tcm-consultation-rag)**：本地中医问诊辅助 RAG。核心流程由 CSV 知识检索、Top 3 上下文约束、安全分流和模型失败回退组成。
 
-- **[AI Video Analyzer](https://github.com/Hzwuu/AI-Video-Analyzer)**  
-  使用 FastAPI、SQLite、pytest 和 GitHub Actions 练习完整的后端工程流程。
+- **[AI Video Analyzer](https://github.com/Hzwuu/AI-Video-Analyzer)**：使用 FastAPI、SQLite、pytest 和 GitHub Actions 练习完整的后端工程流程。
 
 - **持续学习**：SQLAlchemy、Vue3、Docker 和更可靠的 LLM 应用评测方法。
 
