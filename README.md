@@ -1,71 +1,73 @@
-# 你好，我是 Hzwuu
+<div align="center">
 
-计算机相关专业学生，方向是 **AI 应用开发** 与 **Python 后端工程化**。
+# Hzwuu
 
-我希望把大模型能力做成可运行、可验证、边界清楚的软件系统，而不只是停留在聊天界面。
+**软件工程学生 · AI 应用开发 · Python 后端**
 
-![Open to Internship](https://img.shields.io/badge/Open%20to-Internship-0A7F5A?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-AI%20Applications%20%7C%20Backend-2563EB?style=flat-square)
+我在意的不只是模型能不能回答，更是系统有没有依据、会不会失败、能不能复现。
+
+`Python` · `C/C++` · `RAG` · `FastAPI` · `SQLite` · `Streamlit`
+
+**目前正在寻找 AI 应用开发或 Python 后端方向实习机会。**
+
+</div>
+
+---
+
+## 关于我
+
+目前主要做本地 RAG、Agent 应用和后端工程实践。项目优先保证可控的知识来源、明确的安全边界、可解释的失败回退，以及可以重复运行的测试。
 
 ## 当前关注
 
-- 本地 RAG、知识来源追溯和安全回退
-- FastAPI、SQLite 和后端接口设计
+- 本地知识检索、来源追溯与上下文约束
+- FastAPI、SQLite 和接口设计
 - pytest、GitHub Actions 和可复现工程流程
-- 正在学习：SQLAlchemy、Vue3、Docker
-
-## 技术栈
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+- 正在学习 SQLAlchemy、Vue3 和 Docker
 
 ## 代表项目
 
-### 1. [tcm-consultation-rag](https://github.com/Hzwuu/tcm-consultation-rag)
+### [TCM Consultation RAG](https://github.com/Hzwuu/tcm-consultation-rag)
 
-中医问诊辅助本地 RAG 原型。通过结构化 CSV 知识库完成本地检索，将 Top 3 候选和来源注入生成上下文，并加入红旗症状分流、低置信度停止、大模型失败回退和 GitHub Actions。
+中医问诊辅助本地 RAG 原型。从结构化 CSV 检索 Top 3 知识记录，并把候选、依据和来源注入生成上下文；包含红旗症状分流、低置信度停止、大模型失败回退和 CI。
 
-`Python` `C++` `RAG` `TF-IDF` `Embedding` `Streamlit` `CI`
+`Python` `C++` `RAG` `TF-IDF` `Embedding` `Streamlit` `GitHub Actions`
 
-### 2. [debate-agent](https://github.com/Hzwuu/debate-agent)
+### [Debate Agent](https://github.com/Hzwuu/debate-agent)
 
-持久化多智能体辩论后端。包含 FastAPI、SQLite、分阶段执行、证据检索、引用审计、模型调用记录和离线 Mock 模式。
+持久化多智能体辩论后端。使用 FastAPI、SQLite 和分阶段执行保存辩论过程，支持证据检索、引用审计、模型调用记录与离线 Mock 模式。
 
-`Python` `FastAPI` `SQLite` `Multi-Agent` `Retrieval` `pytest`
+`Python` `FastAPI` `SQLite` `Multi-Agent` `pytest`
 
-### 3. [AI-Video-Analyzer](https://github.com/Hzwuu/AI-Video-Analyzer)
+### [AI Video Analyzer](https://github.com/Hzwuu/AI-Video-Analyzer)
 
-短视频数据评分与生产辅助项目。按周迭代后端、数据存储、测试和 CI，当前继续扩展 FastAPI 服务。
+短视频数据评分与生产辅助项目。按周迭代数据存储、后端接口、自动测试和 CI，目前继续扩展 FastAPI 服务。
 
-`Python` `FastAPI` `SQLite` `pytest` `ruff` `CI`
+`Python` `FastAPI` `SQLite` `pytest` `ruff`
 
-### 4. [deep-research](https://github.com/Hzwuu/deep-research)
+### [Deep Research](https://github.com/Hzwuu/deep-research)
 
 基于 LangGraph 的研究 Agent 实验，探索多轮对话、工具调用、信息检索和研究结果组织。
 
 `Python` `LangGraph` `RAG` `Tool Calling`
 
-### 5. [dsa-practicum](https://github.com/Hzwuu/dsa-practicum)
+### [DSA Practicum](https://github.com/Hzwuu/dsa-practicum)
 
 六个 C 语言数据结构与算法课题，覆盖线性表、栈、队列、二叉树、图、Huffman、DFS/BFS、Dijkstra 和 Prim。
 
 `C` `Data Structures` `Algorithms`
 
-## 我的工程原则
+## 工程原则
 
-- 先保证系统可以运行和复现，再讨论模型效果。
-- 知识来源、失败回退和已知限制要和功能一起说明。
+- 先保证能够运行和复现，再讨论模型效果。
+- 来源、回退逻辑和已知限制与功能一起说明。
 - 核心项目尽量具备 README、测试、CI 和清晰的提交记录。
-- 不把检索结果、模型输出和临床结论混为一谈。
+- 不把检索候选、模型输出和医疗结论混为一谈。
 
-## 实习方向
+---
 
-正在寻找 **AI 应用开发、Python 后端开发或软件工程** 方向实习机会。
+<div align="center">
 
-欢迎通过 GitHub Issue 或项目讨论交流。
+如果项目对你有帮助，欢迎查看代码、提交 Issue 或交流实现思路。
+
+</div>
