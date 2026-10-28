@@ -8,4 +8,4 @@
 - 🌱 学习中：FastAPI · SQLAlchemy · Vue3 · Docker
 - 🧰 常用：Python · SQLite · pytest · Git · C/C++ · Java
 
-> 每个项目都尽量做到：有 README、有测试、有 CI、有清晰的提交记录。
+> 核心项目尽量做到：有 README、有测试、有 CI、有清晰的提交记录。
